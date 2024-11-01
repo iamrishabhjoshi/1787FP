@@ -1,21 +1,40 @@
-<<<<<<< HEAD
-# 1787FP
-Flutter app for financial figures
-=======
-# project
 
-A new Flutter project.
+# Flutter finance
 
-## Getting Started
+This app allows users to track a company's estimated vs. actual earnings over time, visualized through an interactive bar chart. Users can view detailed earnings data by hovering over chart bars and access earnings call transcripts for specific periods.
 
-This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
+## API Reference
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+#### Get all earningscalendar
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
->>>>>>> 16e0324 (Initial commit)
+```http
+  GET /api//v1/earningscalendar
+```
+
+| Parameter | Type     | Description                |
+| :-------- | :------- | :------------------------- |
+| `ticker` | `string` | Company ticker symbol (e.g., MSFT). |
+
+#### Get 
+
+```http
+  GET /api//v1/earningstranscript 
+```
+
+| Parameter | Type     | Description                       |
+| :-------- | :------- | :-------------------------------- |
+| `ticker`      | `string` | Company ticker symbol (e.g., AAPL)|
+| `year`      | `string` | Earnings year (e.g., 2024).|
+| `quarter`      | `string` | Earnings quarter from Q1 to Q4. Must be one of the following values: 1, 2, 3, 4.|
+
+## Screenshots
+
+![App Screenshot](https://drive.google.com/file/d/1E91Nv7cXE_BiQ7_P83rL5Cx4CKIapwaS/view?usp=sharing)
+
+![App Screenshot](https://drive.google.com/file/d/1x2d8hAB8HqjpwqDvGYlFsjqRM_R-txPX/view?usp=sharing)
+
+![App Screenshot](https://drive.google.com/file/d/1RkKVqSJt3JADFg6lsuhwsS3FmQTO-1Wk/view?usp=sharing)
+
+![App Screenshot](https://drive.google.com/file/d/1e_RuzEVDg-FaIAuYo8OXsmcKBug1GtyI/view?usp=sharing)
+
