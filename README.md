@@ -30,11 +30,11 @@ This app allows users to track a company's estimated vs. actual earnings over ti
 
 ## Screenshots
 
-![App Screenshot](https://drive.google.com/file/d/1E91Nv7cXE_BiQ7_P83rL5Cx4CKIapwaS/view?usp=sharing)
+![WhatsApp Image 2024-11-01 at 22 26 43](https://github.com/user-attachments/assets/7a16f41c-9d28-4f9a-a477-e3944afe6241)
 
-![App Screenshot](https://drive.google.com/file/d/1x2d8hAB8HqjpwqDvGYlFsjqRM_R-txPX/view?usp=sharing)
+![WhatsApp Image 2024-11-01 at 22 26 43 (1)](https://github.com/user-attachments/assets/98497749-f735-467b-b86f-e0e11a70d777)
 
-![App Screenshot](https://drive.google.com/file/d/1RkKVqSJt3JADFg6lsuhwsS3FmQTO-1Wk/view?usp=sharing)
+![WhatsApp Image 2024-11-01 at 22 26 44](https://github.com/user-attachments/assets/5810edd7-9612-4ee5-a384-4e34a5263677)
 
-![App Screenshot](https://drive.google.com/file/d/1e_RuzEVDg-FaIAuYo8OXsmcKBug1GtyI/view?usp=sharing)
+![WhatsApp Image 2024-11-01 at 22 26 44 (1)](https://github.com/user-attachments/assets/cd61f5bd-658a-46ab-9ee3-3d40f166ce11)
 
