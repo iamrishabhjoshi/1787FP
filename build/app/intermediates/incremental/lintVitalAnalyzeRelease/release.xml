@@ -1,0 +1,40 @@
+<variant
+    name="release"
+    package="com.example.project"
+    minSdkVersion="21"
+    targetSdkVersion="34"
+    shrinking="true"
+    mergedManifest="/Users/rishabhjoshi/Desktop/Flutter Projects/project/build/app/intermediates/merged_manifest/release/AndroidManifest.xml"
+    proguardFiles="/Users/rishabhjoshi/Desktop/Flutter Projects/project/build/app/intermediates/default_proguard_files/global/proguard-android.txt-7.3.0:/Users/rishabhjoshi/flutter/packages/flutter_tools/gradle/flutter_proguard_rules.pro:proguard-rules.pro"
+    partialResultsDir="/Users/rishabhjoshi/Desktop/Flutter Projects/project/build/app/intermediates/lint_vital_partial_results/release/out"
+    desugaredMethodsFiles="/Users/rishabhjoshi/.gradle/caches/transforms-3/2c2f9caeb5480e1f2c15316c5b5032c3/transformed/D8BackportedDesugaredMethods.txt">
+  <buildFeatures
+      namespacing="REQUIRED"/>
+  <sourceProviders>
+    <sourceProvider
+        manifest="src/main/AndroidManifest.xml"
+        javaDirectories="src/main/java:src/main/kotlin"
+        resDirectories="src/main/res"
+        assetsDirectories="src/main/assets"/>
+    <sourceProvider
+        manifest="src/release/AndroidManifest.xml"
+        javaDirectories="src/release/java:src/release/kotlin"
+        resDirectories="src/release/res"
+        assetsDirectories="src/release/assets"/>
+  </sourceProviders>
+  <testSourceProviders>
+  </testSourceProviders>
+  <testFixturesSourceProviders>
+  </testFixturesSourceProviders>
+  <manifestPlaceholders>
+    <placeholder
+        name="applicationName"
+        value="android.app.Application" />
+  </manifestPlaceholders>
+  <mainArtifact
+      classOutputs="/Users/rishabhjoshi/Desktop/Flutter Projects/project/build/app/intermediates/javac/release/classes:/Users/rishabhjoshi/Desktop/Flutter Projects/project/build/app/tmp/kotlin-classes/release:/Users/rishabhjoshi/Desktop/Flutter Projects/project/build/app/kotlinToolingMetadata:/Users/rishabhjoshi/Desktop/Flutter Projects/project/build/app/intermediates/compile_and_runtime_not_namespaced_r_class_jar/release/R.jar"
+      applicationId="com.example.project"
+      generatedSourceFolders="/Users/rishabhjoshi/Desktop/Flutter Projects/project/build/app/generated/ap_generated_sources/release/out:/Users/rishabhjoshi/Desktop/Flutter Projects/project/build/app/generated/aidl_source_output_dir/release/out:/Users/rishabhjoshi/Desktop/Flutter Projects/project/build/app/generated/source/buildConfig/release:/Users/rishabhjoshi/Desktop/Flutter Projects/project/build/app/generated/renderscript_source_output_dir/release/out"
+      generatedResourceFolders="/Users/rishabhjoshi/Desktop/Flutter Projects/project/build/app/generated/res/rs/release:/Users/rishabhjoshi/Desktop/Flutter Projects/project/build/app/generated/res/resValues/release">
+  </mainArtifact>
+</variant>

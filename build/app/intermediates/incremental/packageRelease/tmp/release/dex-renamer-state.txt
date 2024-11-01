@@ -1,0 +1,4 @@
+#Fri Nov 01 20:25:40 IST 2024
+base.0=/Users/rishabhjoshi/Desktop/Flutter Projects/project/build/app/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+path.0=classes.dex
+renamed.0=classes.dex
